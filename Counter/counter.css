@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+}
+
+button{
+    font-size: x-large;
+    padding: 10px;
+    border-radius: 0.5rem;
+    background-color: transparent;
+    transition: all 0.4s;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+h1{
+    margin: 0 auto;
+}
+
+.num{
+    font-size: 75px
+}
+
+
+
+
